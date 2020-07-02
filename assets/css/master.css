@@ -1,0 +1,49 @@
+
+
+.card {
+  width: 100%;
+}
+
+img {
+  width: 200px;
+}
+
+body {
+  background-image: url(/clouds.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  background-color: #31708b; 
+  color: #f7f9fb;
+}
+  
+.card {
+  width: 100%;
+  
+}
+
+.nav-link.active,
+.show > .nav-link {
+  color: #31708b !important;
+  background-color: #f7f9fb !important;
+}
+
+.quote {
+  position: absolute;
+  bottom: 0;
+  margin: 5px;
+  color: black;
+}
+
+@media(min-width: 768px){
+  img {
+    float: left;
+  }
+}
+
+@media(min-width: 980px){
+ .card {
+   width: 688px;
+ }
+}
